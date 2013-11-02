@@ -17,6 +17,7 @@ this system level configuration. The Git installation location can be configured
 Team > Git > Configuration preference page's 'System Settings' tab.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 !ENTRY org.eclipse.jdt.core 4 4 2013-11-02 18:11:18.496
 !MESSAGE Background Indexer Crash Recovery
@@ -51,5 +52,7 @@ The most important of these settings is core.autocrlf. Git for Windows by defaul
 this system level configuration. The Git installation location can be configured on the
 Team > Git > Configuration preference page's 'System Settings' tab.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+=======
+>>>>>>> parent of 03c2e8d... Added nonfunctional sprite class
 =======
 >>>>>>> parent of 03c2e8d... Added nonfunctional sprite class
