@@ -15,7 +15,9 @@ public class GameWindow extends JPanel {
 	public void paint(Graphics g) {
 		Graphics2D g2d = (Graphics2D) g;
 		Megaman = new Sprite(this, ii);
-		g2d.drawImage(Megaman.image, 0, 0, 200, 200, 0, 0, 50, 50, Color.blue, null); 
+		ImageIcon ii = new ImageIcon(this.getClass().getResource("MegaMan.png"));
+        Megaman = ii.getImage();
+		g2d.drawImage(Megaman, 0, 0, 200, 200, 0, 0, 50, 50, Color.blue, null); 
 
 	}
 	
